@@ -1,0 +1,50 @@
+body { 
+  background: #1F394D url('../images/bgGradient.png');
+  background-repeat: repeat-x;
+  margin: 0; 
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 26px;
+}
+a:hover{
+  color: #fff;
+  text-decoration: underline;
+  font-size: 26px;
+}
+#puzzleSelectText{
+  font-family: Arial;
+  text-align: center;
+  color: #ffffff;
+}
+
+#puzzleList{
+  font-family: Arial;
+  color: #ffffff;
+  width: 100%;
+}
+
+#eightPuzzleLink{
+	left: 43%;
+	position: absolute;
+}
+
+#fifteenPuzzleLink{
+	left: 42.5%;
+	position: absolute;
+	top: 180px;
+}
+
+#wogglePuzzleLink{
+	left: 42%;
+	position: absolute;
+	top: 220px;
+}
+
+#woggleInstruction{
+	left: 56%;
+	position: absolute;
+	top: 228px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>Woggle Puzzle</title>
+ <link rel="shortcut icon" href="../images/puzzle-icon.png" type="image/x-icon">
+ <link rel="stylesheet" href="../css/woggle-puzzle.css" type="text/css" />
+ <script src="../js/woggle.js" type="text/javascript"></script>
+ <script src="../js/utils.js" type="text/javascript"></script>
+ </head>
+<body>
+  <div id="background">
+    <h1 id="logotype">Woggle Puzzle</h1>
+    <div id="wrapper" class="wrapper">
+      <div id="letterbox">
+        <a href="#" class="tile t11"></a>        
+        <a href="#" class="tile t12"></a>        
+        <a href="#" class="tile t13"></a>        
+        <a href="#" class="tile t14"></a>
+        
+        <a href="#" class="tile t21"></a>        
+        <a href="#" class="tile t22"></a>        
+        <a href="#" class="tile t23"></a>        
+        <a href="#" class="tile t24"></a>
+        
+        <a href="#" class="tile t31"></a>        
+        <a href="#" class="tile t32"></a>        
+        <a href="#" class="tile t33"></a>        
+        <a href="#" class="tile t34"></a>
+    
+        <a href="#" class="tile t41"></a>        
+        <a href="#" class="tile t42"></a>        
+        <a href="#" class="tile t43"></a>        
+        <a href="#" class="tile t44"></a>        
+      </div>
+    
+      <div id="currentWord"></div>
+      <div id="submit"><a href="#">Submit Word</a></div>
+      <div id="wordListBg">
+        <div id="wordList"></div>    
+      </div>
+      <div id="score">Score: 0</div>
+    </div>
+
+    <div id="woggleInstructions">
+      <p id="instructionsHead">Instructions</p>
+      <p id="instructions">
+        <ol id="instructionsList">
+          <li class="instructionsListItem" id="li1"> Click on the letters embedded in the boxes to create words. </li>
+          <li class="instructionsListItem" id="li2"> Click on 'Submit Word' button to submit your word.</li>
+          <li class="instructionsListItem" id="li3"> If you submit a correct word, you would get 2 points for each consonant and 1 point for each vowel. </li>
+          <li class="instructionsListItem" id="li4"> Submission of an incorrect word would not be accepted and would not increment your score. </li>
+          <li class="instructionsListItem" id="li5"> You must use a word only once. Duplicates are not allowed. </li>
+          <li class="instructionsListItem" id="li6"> You will have 90 seconds after the game starts. The game will start once you click the 'Start' button below. </li>
+        </ol>
+      </p>
+    </div>
+    <div id="startGame"><a href="#">Start</a></div>
+    <div id="goBack">
+      <a href="../puzzle-select.html"><< Select other puzzles</a>
+    </div>
+  </div>
+</body>
+</html>

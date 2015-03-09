@@ -1,0 +1,248 @@
+body { 
+  background: #1F394D url('../images/bgGradient.png');
+  background-repeat: repeat-x;
+  margin: 0; 
+  font-family: Arial;
+}
+
+.wrapper {
+	opacity: 1;
+}
+
+.wrapperDisabled {
+	cursor: default;
+	-moz-opacity: .1;
+	opacity : .1;
+}
+
+#logotype { 
+	left: 80px; 
+	margin: 0; 
+	overflow: hidden;  
+	position: absolute; 
+	top: 40px; 
+	width: 461px; 
+	color: #fff;
+}
+
+#letterbox { 
+	height: 356px; 
+	left: 79px; 
+	position: absolute; 
+	top: 140px; 
+	width: 356px; 
+}
+
+/* tile defaults */
+#letterbox a.tile { 
+	background: url('../images/tiles.png') no-repeat; 
+	height: 69px; 
+	position: absolute; 
+	width: 69px; 
+	border-style: outset;
+	border-width: 5px;
+	border-color: #c0c0c0 #000 #000 #c0c0c0;
+}
+
+/* tile positioning */
+#letterbox a.t11 { top: 3px; left: 3px; }
+#letterbox a.t12 { top: 3px; left: 93px; }
+#letterbox a.t13 { top: 3px; left: 183px; }
+#letterbox a.t14 { top: 3px; left: 273px; }
+#letterbox a.t21 { top: 93px; left: 3px; }
+#letterbox a.t22 { top: 93px; left: 93px; }
+#letterbox a.t23 { top: 93px; left: 183px; }
+#letterbox a.t24 { top: 93px; left: 273px; }
+#letterbox a.t31 { top: 183px; left: 3px; }
+#letterbox a.t32 { top: 183px; left: 93px; }
+#letterbox a.t33 { top: 183px; left: 183px; }
+#letterbox a.t34 { top: 183px; left: 273px; }
+#letterbox a.t41 { top: 273px; left: 3px; }
+#letterbox a.t42 { top: 273px; left: 93px; }
+#letterbox a.t43 { top: 273px; left: 183px; }
+#letterbox a.t44 { top: 273px; left: 273px; }
+
+/* tile letters */
+#letterbox a.la { background-position: 0px 0px; }
+#letterbox a.lb { background-position: -69px 0px; }
+#letterbox a.lc { background-position: -138px 0px; }
+#letterbox a.ld { background-position: -207px 0px; }
+#letterbox a.le { background-position: -276px 0px; }
+#letterbox a.lf { background-position: -345px 0px; }
+#letterbox a.lg { background-position: 0px -69px; }
+#letterbox a.lh { background-position: -69px -69px; }
+#letterbox a.li { background-position: -138px -69px; }
+#letterbox a.lj { background-position: -207px -69px; }
+#letterbox a.lk { background-position: -276px -69px; }
+#letterbox a.ll { background-position: -345px -69px; }
+#letterbox a.lm { background-position: 0px -138px; }
+#letterbox a.ln { background-position: -69px -138px; }
+#letterbox a.lo { background-position: -138px -138px; }
+#letterbox a.lp { background-position: -207px -138px; }
+#letterbox a.lq { background-position: -276px -138px; }
+#letterbox a.lr { background-position: -345px -138px; }
+#letterbox a.ls { background-position: 0px -207px; }
+#letterbox a.lt { background-position: -69px -207px; }
+#letterbox a.lu { background-position: -138px -207px; }
+#letterbox a.lv { background-position: -207px -207px; }
+#letterbox a.lw { background-position: -276px -207px; }
+#letterbox a.lx { background-position: -345px -207px; }
+#letterbox a.ly { background-position: 0px -276px; }
+#letterbox a.lz { background-position: -69px -276px; }
+
+#currentWord { 
+  background: url('../images/bgCurrentWord.png') no-repeat; 
+  font-size: 20px; 
+  height: 86px; 
+  left: 500px; 
+  padding: 0;
+  position: absolute; 
+  top: 140px; 
+  width: 315px; 
+  text-indent: 12px;
+}
+
+#submit { 
+	background: url('../images/bgScore_Submit.png') no-repeat; 
+	font-size: 20px; 
+	height: 41px; 
+	left: 500px; 
+	position: absolute; 
+	top: 230px; 
+	width: 310px;
+	text-indent: 90px;
+}
+
+#submit a { 
+	color: #000; 
+	display: block; 
+	margin: 5px 5px 0 5px; 
+	padding: 4px 0 4px 0; 
+	text-decoration: none; 
+}
+#submit a:hover { 
+	background: #1f3f4f; 
+	color: #fff; 
+}
+#submit a.disabled:hover { 
+	background: none; 
+	color: #000; 
+}
+
+
+a.disabled { 
+  cursor: default; 
+/*  filter: alpha(opacity=25); */
+  -moz-opacity: .25; 
+  opacity: .25; 
+}
+
+
+#wordListBg { 
+	background: url('../images/bgWordCollection.png') no-repeat; 
+	height: 216px; 
+	left: 500px; 
+	position: absolute; 
+	top: 280px; 
+	width: 315px; 
+}
+
+#wordList { 
+	height: 200px; 
+	overflow: auto; 
+	margin: 8px; 
+	padding: 0 12px; 
+	text-align: left; 
+	width: 299px; 
+}
+#wordList p { 
+	font-size: 16px; 
+	line-height: 10px; 
+}
+
+#score { 
+	background: url('../images/bgScore_Submit.png') no-repeat; 
+	font-size: 20px; 
+	height: 46px; 
+	left: 500px; 
+	padding: 10px 0 0 0; 
+	position: absolute; 
+	top: 500px; 
+	width: 315px; 
+	text-indent: 10px;
+}
+
+#woggleInstructions {
+	color: #fff;
+	left: 70%;
+	position: absolute;
+	top: 140px;
+	width: 19%;
+	height: auto;
+}
+
+#instructionsHead {
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+}
+
+#instructionsList {
+	font-size: 14px;
+	text-align: justify;
+}
+
+.instructionsListItem {
+	padding-top: 6px;
+}
+
+#startGame {
+	background: #fff;
+	left: 75%;
+	position: absolute;
+	top: 510px;
+	width: 10%;
+	text-indent: 45px;
+	border-style: outset;
+}
+
+#startGame a{
+	background: #fff;
+	color: #000; 
+	display: block; 
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#startGame a:hover { 
+	background: #71b05c; 
+	color: #fff;
+
+}
+
+#startGame a.disabled:hover { 
+	background: none; 
+	color: #000; 
+}
+
+#timer {
+	left: 42%;
+	position: absolute; 
+	top: 50px; 
+	color: #fff;
+}
+
+#goBack {
+	left: 6%;
+	top: 88%;
+	position: absolute;
+}
+
+#goBack a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#goBack a:hover{
+	text-decoration: underline;
+}

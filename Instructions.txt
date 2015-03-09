@@ -1,0 +1,28 @@
+/******************************** Instructions ********************************/
+
+
+1.	Copy this folder (Puzzles) in the root directory of your server 
+	(e.g. 'www' directory for wampServer or lampServer).
+	
+	Open 'puzzle-select.html' from 'localhost',
+	(i.e. localhost/Puzzles/puzzle-select.html).
+
+
+2.	This version of Puzzles incorporates 3 kinds of puzzles.
+	a.	Eight Puzzle
+	b.	Fifteen Puzzle
+	c.	Woggle Puzzle
+
+	The home page 'puzzle-select.html' contains links to theses puzzles.
+
+
+3.	First two puzzles (a. & b.) do not require any server-side interaction. 
+	So there is no need to intall or run a server on your machine.
+
+4.	The third one (c. Woggle Puzzle) requires server-side interaction,
+	as it contains a .php file. 
+
+5.	The default time for the Woggle Puzzle is 90 seconds. You can change it
+	according to your comfort by changing 'woggle.js' in js folder.
+	All you have to do is to change   var timerCount = 90; to 
+	var timerCount = <your time in seconds>;
